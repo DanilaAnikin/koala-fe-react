@@ -1,55 +1,32 @@
-# React + TypeScript + Vite
+# Koala42 Assessment - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description
+1) In this project I'm using ReactJS and Tailwind CSS
+2) I'm using TypeScript and types are in /app/types.ts and in component's folders as types.ts
+3) Main code is in app/components/...
+4) There is a transformation of json file in /src/utils/transformData.ts
 
-Currently, two official plugins are available:
+### Installation
+Clone the repository and install the dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+git clone https://github.com/DanilaAnikin/koala-fe-react.git
+cd koala-fe-react
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+Running:
+```bash
+npm run dev
 ```
-# koala-fe-react
+
+### Issues and posible improvements
+#### Responsive styles
+I could add styles so the table is responsive and looks good either on mobile.
+
+#### Connecting with BE
+Of course I could connect this code with my BE, already created code ( at github.com/DanilaAnikin/koala42-assessment-hiring/ )
+
+#### Style and design
+If I spent more time on that, I could manage the design and correct my styles so it looks better. 
+In the assessment was that I don't have to spend much time on that, so I didn't.
