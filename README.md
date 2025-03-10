@@ -1,4 +1,4 @@
-# Koala42 Assessment - Frontend
+# Koala42 Assessment - Frontend (in React)
 
 ### Description
 1) In this project I'm using ReactJS and Tailwind CSS
