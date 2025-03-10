@@ -1,5 +1,5 @@
 import data from '../data/data.json'
-import {RawDataItem} from "../types.ts";
+import {RawDataItem} from "../types";
 
 /**
  * Api Load data

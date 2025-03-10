@@ -1,4 +1,4 @@
-import {DataItem} from "../../types.ts";
+import {DataItem} from "../../types";
 
 export interface TableHeaderProps {
 	item: DataItem;
